@@ -1,0 +1,41 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment files
+venv/
+env/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore sensitive or private information
+config.ini
+secrets.txt
+
+# Ignore build and distribution files
+build/
+dist/
+
+# Ignore js output
+*.js
+
+# Ignore node_modules
+node_modules/
+
+package-lock.json
+package.json
+tsconfig.json
